@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="B381.exe"/>
+    <OBJFILES value="B381.obj Main.obj UOptions.obj CSignal.obj CDevice.obj CConf.obj 
+      UComment.obj UNewExp.obj UToolWin.obj UNewSeries.obj b381lib.obj 
+      ScrollChart.obj Cursor.obj Ufft.obj Recorder.obj URecMenu.obj"/>
+    <RESFILES value="B381.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Main.dfm UOptions.dfm UComment.dfm UNewExp.dfm UToolWin.dfm 
+      UNewSeries.dfm Ufft.dfm URecMenu.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="Tee8C6.lib vclx.lib tee.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib tee.lib vclx.lib Tee8C6.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi bcbsmp.bpi dbrtl.bpi vcldb.bpi adortl.bpi 
+      ibsmp.bpi bdertl.bpi vcldbx.bpi qrpt.bpi ibxpress.bpi dsnap.bpi vclie.bpi 
+      inetdb.bpi inet.bpi nmfast.bpi webdsnap.bpi bcbie.bpi dclocx.bpi 
+      bcb97axserver.bpi TeeUI8C6.bpi Tee8C6.bpi TeeDB8C6.bpi TeeLanguage8C6.bpi 
+      TeePro8C6.bpi TeeWorld8C6.bpi TeeQR8C6.bpi TeeGL8C6.bpi TeeImage8C6.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT;_RTLDLL"/>
+    <MAINSOURCE value="B381.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files\Borland\CBuilder5\Projects&quot;;&quot;D:\Program Files\Borland\CBuilder5\Projects&quot;;D:\;D:\Projects;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="&quot;C:\Program Files\Borland\CBuilder5\Projects&quot;;&quot;D:\Program Files\Borland\CBuilder5\Projects&quot;;D:\;D:\Projects;$(BCB)\Lib;$(BCB)\lib\obj"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;C:\Program Files\Borland\CBuilder5\Projects&quot; 
+      -I&quot;D:\Program Files\Borland\CBuilder5\Projects&quot; -ID:\. -ID:\Projects 
+      -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-O2 -H=c:\PROGRA~1\borland\CBUILD~1\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 
+      -5 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="B381.cpp" FORMNAME="" UNITNAME="B381" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="B381.res" FORMNAME="" UNITNAME="B381" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Main.cpp" FORMNAME="Form1" UNITNAME="Main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UOptions.cpp" FORMNAME="FOptions" UNITNAME="UOptions" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CSignal.cpp" FORMNAME="" UNITNAME="CSignal" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CDevice.cpp" FORMNAME="" UNITNAME="CDevice" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CConf.cpp" FORMNAME="" UNITNAME="CConf" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UComment.cpp" FORMNAME="Comment" UNITNAME="UComment" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UNewExp.cpp" FORMNAME="NewExp" UNITNAME="UNewExp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UToolWin.cpp" FORMNAME="ToolWin" UNITNAME="UToolWin" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UNewSeries.cpp" FORMNAME="NewSeries" UNITNAME="UNewSeries" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="b381lib.cpp" FORMNAME="" UNITNAME="b381lib" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ScrollChart.cpp" FORMNAME="" UNITNAME="ScrollChart" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Cursor.cpp" FORMNAME="" UNITNAME="Cursor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Ufft.cpp" FORMNAME="Form2" UNITNAME="Ufft" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Recorder.cpp" FORMNAME="" UNITNAME="Recorder" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Recorder.cpp" FORMNAME="" UNITNAME="Recorder" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="URecMenu.cpp" FORMNAME="RecDial" UNITNAME="URecMenu" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=1
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.1
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+C:\Program Files\RAD\TeeChart Pro VCL 8.06 Full Source\Sources\Compiled\Builder6\Bin\DclTee8C6.bpl=TeeChart 8 Components
+C:\Program Files\RAD\TeeChart Pro VCL 8.06 Full Source\Sources\Compiled\Builder6\Bin\DclTeePro8C6.bpl=TeeChart Pro 8 Components
+C:\Program Files\RAD\TeeChart Pro VCL 8.06 Full Source\Sources\Compiled\Builder6\Bin\DclTGL8C6.bpl=TeeChart 8 for OpenGL
+C:\Program Files\RAD\TeeChart Pro VCL 8.06 Full Source\Sources\Compiled\Builder6\Bin\DclTQR8C6.bpl=TeeChart 8 for QuickReport
+C:\Program Files\RAD\TeeChart Pro VCL 8.06 Full Source\Sources\Compiled\Builder6\System\TeeImage8C6.bpl=TeeChart Pro 8 Graphic Exporting formats
+C:\Windows\system32\TeeWorld8C6.bpl=TeeChart Pro 8 GIS Mapping
+
+[HistoryLists\hlIncludePath]
+Count=9
+Item0=C:\Program Files\Borland\CBuilder5\Projects;D:\Program Files\Borland\CBuilder5\Projects;D:\;D:\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item1=D:\;D:\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item2=..;D:\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item3=..\..\Projects;D:\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item4=C:\Program Files\Borland\CBuilder5\Projects\;D:\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item5=C:\Program Files\Borland\CBuilder5\Projects;..\..\Projects;D:\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item6=C:\Program Files\Borland\CBuilder5\Projects;D:\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item7=..\..\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item8=..;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=12
+Item0=C:\Program Files\Borland\CBuilder5\Projects;D:\Program Files\Borland\CBuilder5\Projects;D:\;D:\Projects;$(BCB)\Lib;$(BCB)\lib\obj
+Item1=D:\;D:\Projects\;$(BCB)\Lib;$(BCB)\lib\obj
+Item2=..;D:\Projects\;$(BCB)\Lib;$(BCB)\lib\obj
+Item3=..\..\Projects;D:\Projects\;$(BCB)\Lib;$(BCB)\lib\obj
+Item4=C:\Program Files\Borland\CBuilder5\Projects\;D:\Projects\;$(BCB)\Lib;$(BCB)\lib\obj
+Item5=C:\Program Files\Borland\CBuilder5\Projects;..\..\Projects;$(BCB)\Lib;D:\Projects\;$(BCB)\lib\obj
+Item6=..;$(BCB)\Lib;D:\Projects\;$(BCB)\lib\obj
+Item7=..\..\Projects;$(BCB)\Lib;D:\Projects\;$(BCB)\lib\obj
+Item8=C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Lib;D:\Projects\;$(BCB)\lib\obj
+Item9=C:\Program Files\Borland\CBuilder5\Projects;$(BCB)\Lib;D:\Projects\;$(BCB)\lib\obj
+Item10=$(BCB)\Lib;..\..\Projects;$(BCB)\lib\obj
+Item11=$(BCB)\Lib;..;$(BCB)\lib\obj
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=1
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
